@@ -48,4 +48,14 @@ p {
 #barCon {
   background-color: lightgreen;
   height: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+  #app {
+    position: relative;
+    left: 130px;
+  }
 }/*# sourceMappingURL=styless.css.map */

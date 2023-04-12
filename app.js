@@ -26,6 +26,8 @@ function myLoop() {
     else{
       counter = 1
       myLoop(); 
+      alo()
+
     }                    
   }, 1000)
 }
@@ -50,11 +52,7 @@ function alo(){
 
       if (counter < 6 && barCon.style.width!=="100px") {        
       alo();        
-    }
-    else{
-      counter=0
-      alo()
-    }     
+    }    
 
    },550)
 }
